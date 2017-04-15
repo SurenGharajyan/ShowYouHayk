@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ProjectToSeeGitHub</string>
+    <string name="i_am_starting">I am starting</string>
+    <string name="animate">Animate</string>
+    <string name="_1_alpha">1.Alpha</string>
+    <string name="rotate">Rotate</string>
+    <string name="_2_rotate">2.Rotate</string>
+    <string name="_3_scale">3.Scale</string>
+    <string name="_4_translate">4.Translate</string>
+    <string name="this_text_have_be_changes">This text have be Changes</string>
+    <string name="close_activity">Close Activity</string>
+    <string name="animate_activity">Animate Activity</string>
+    <string name="shared_preference">Shared Preference</string>
+    <string name="red">Red</string>
+    <string name="blue">blue</string>
+    <string name="green">green</string>
+    <string name="send">Send</string>
+    <string name="add">Add</string>
+    <string name="write_text_none_and_click_checker">write text /none/. And Click checker</string>
+    <string name="checker">Checker</string>
+    <string name="write_text_close_or_none_color">Write Text /close/ OR /none color/</string>
+    <string name="there_are_sending_me">There are Sending me</string>
+    <string name="close">close</string>
+    <string name="write">Write</string>
+    <string name="copy">Copy</string>
+    <string name="cut">Cut</string>
+</resources>

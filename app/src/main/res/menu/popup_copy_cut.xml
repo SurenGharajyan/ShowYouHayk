@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:orderInCategory="1"
+        android:title="@string/copy"
+        android:id="@+id/copy_edittext"
+        android:showAsAction="never"
+        >
+    </item>
+    <item
+        android:orderInCategory="2"
+        android:title="@string/cut"
+        android:id="@+id/cut_edittext"
+        android:showAsAction="never"
+        >
+    </item>
+</menu>

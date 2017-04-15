@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_animate"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.androidgithubproj.AnimateActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/animate"
+        android:textStyle="italic"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/text_anim"
+        />
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/text_anim"
+    android:id="@+id/Relative1"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="@string/_1_alpha"
+        android:id="@+id/alpha_anim_text"
+        android:textSize="20sp"
+        />
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#123"
+        android:id="@+id/seekbar_alpha"
+        android:layout_below="@+id/alpha_anim_text"
+        />
+</RelativeLayout>
+
+
+
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/Relative1"
+    android:id="@+id/Relative2"
+    >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="@string/_2_rotate"
+            android:id="@+id/rotate_anim_text"
+            android:textSize="20sp"
+            />
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#123"
+            android:layout_below="@id/rotate_anim_text"
+            android:id="@+id/seekbar_rotate"
+            />
+</RelativeLayout>
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Relative2"
+        android:id="@+id/Relative3"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="@string/_3_scale"
+            android:id="@+id/scale_anim_text"
+            android:textSize="20sp"
+            />
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#123"
+            android:layout_below="@id/scale_anim_text"
+            android:id="@+id/seekbar_scale"
+            />
+    </RelativeLayout>
+
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Relative3"
+        android:id="@+id/Relative4"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="@string/_4_translate"
+            android:id="@+id/translate_anim_text"
+            android:textSize="20sp"
+            />
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#123"
+            android:layout_below="@id/translate_anim_text"
+            android:id="@+id/seekbar_translate"
+            />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/Relative4"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/close_activity"
+            android:id="@+id/close_animate_btn"
+
+            />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|bottom"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/this_text_have_be_changes"
+        android:textColor="#289e2c"
+        android:textSize="20sp"
+        android:id="@+id/text_animation_change"
+
+        />
+
+    </LinearLayout>
+</RelativeLayout>
